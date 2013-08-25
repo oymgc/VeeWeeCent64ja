@@ -26,8 +26,8 @@ Veewee::Session.declare({
   :shutdown_cmd => "/sbin/halt -h -p",
   :postinstall_files => [
     "base.sh",
-    "chef.sh",
-    "puppet.sh",
+    #"chef.sh",
+    #"puppet.sh",
     "vagrant.sh",
     "virtualbox.sh",
     #"vmfusion.sh",
